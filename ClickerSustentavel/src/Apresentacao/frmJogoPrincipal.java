@@ -2,6 +2,7 @@ package Apresentacao;
 
 import Modelo.Controle;
 import Modelo.Itens;
+import Modelo.PontosSustentabilidade;
 
 public class frmJogoPrincipal extends javax.swing.JDialog
 {
@@ -10,19 +11,24 @@ public class frmJogoPrincipal extends javax.swing.JDialog
     public frmJogoPrincipal(java.awt.Frame parent, boolean modal)
     {
         super(parent, modal);
-        Itens itens = new Itens();
         initComponents();
     }
     
-    private void Descricao(String itemN)
+    
+    //int NumeroDoItem == int do Item equivalente, de 1 a 10
+    //colocar NumeroDoItem == 0 para esvaziar a àrea de texto
+    private void Descricao(int NumeroDoItem)
     {
         Controle controle = new Controle();
-        txaDescricao.setText(controle.DescricaoItem(itemN));
+        txaDescricao.setText(controle.DescricaoItem(NumeroDoItem));
     }
     
-    private void Realizar(javax.swing.JProgressBar BarraItemN,Integer ItemN)
+    
+    //Método que inicia o carregamento da barra
+    //Colocar a barra equivalente como parâmetro
+    private void Realizar(javax.swing.JProgressBar BarraDoItem, Integer NumeroDoItem, javax.swing.JLabel LabelDosPontos)
     {
-        Controle controle = new Controle(BarraItemN,ItemN);
+        Controle controle = new Controle(BarraDoItem,NumeroDoItem,LabelDosPontos);
     }
     
     
@@ -31,103 +37,93 @@ public class frmJogoPrincipal extends javax.swing.JDialog
     private void initComponents()
     {
 
-        txaDescricao = new javax.swing.JTextArea();
-        btnMelhorias = new javax.swing.JButton();
         lblPontos = new javax.swing.JLabel();
-        btnConquistas = new javax.swing.JButton();
         lblQuantidadePontos = new javax.swing.JLabel();
+        Itens itens = new Itens();
         lblItem1 = new javax.swing.JLabel();
         lblPessoasItem1 = new javax.swing.JLabel();
         lblQuantidadeItem1 = new javax.swing.JLabel();
+        pgbItem1 = new javax.swing.JProgressBar();
         btnCompra1Item1 = new javax.swing.JButton();
         btnCompra10Item1 = new javax.swing.JButton();
-        pgbItem1 = new javax.swing.JProgressBar();
         lblItem2 = new javax.swing.JLabel();
-        pgbItem2 = new javax.swing.JProgressBar();
-        btnCompra1Item2 = new javax.swing.JButton();
         lblPessoasItem2 = new javax.swing.JLabel();
         lblQuantidadeItem2 = new javax.swing.JLabel();
+        pgbItem2 = new javax.swing.JProgressBar();
+        btnCompra1Item2 = new javax.swing.JButton();
         btnCompra10Item2 = new javax.swing.JButton();
         lblItem3 = new javax.swing.JLabel();
-        pgbItem3 = new javax.swing.JProgressBar();
-        btnCompra1Item3 = new javax.swing.JButton();
         lblPessoasItem3 = new javax.swing.JLabel();
         lblQuantidadeItem3 = new javax.swing.JLabel();
+        pgbItem3 = new javax.swing.JProgressBar();
+        btnCompra1Item3 = new javax.swing.JButton();
         btnCompra10Item3 = new javax.swing.JButton();
         lblItem4 = new javax.swing.JLabel();
-        pgbItem4 = new javax.swing.JProgressBar();
-        btnCompra1Item4 = new javax.swing.JButton();
         lblPessoasItem4 = new javax.swing.JLabel();
         lblQuantidadeItem4 = new javax.swing.JLabel();
+        pgbItem4 = new javax.swing.JProgressBar();
+        btnCompra1Item4 = new javax.swing.JButton();
         btnCompra10Item4 = new javax.swing.JButton();
         lblItem5 = new javax.swing.JLabel();
-        pgbItem5 = new javax.swing.JProgressBar();
-        btnCompra1Item5 = new javax.swing.JButton();
         lblPessoasItem5 = new javax.swing.JLabel();
         lblQuantidadeItem5 = new javax.swing.JLabel();
+        pgbItem5 = new javax.swing.JProgressBar();
+        btnCompra1Item5 = new javax.swing.JButton();
         btnCompra10Item5 = new javax.swing.JButton();
-        pgbItem10 = new javax.swing.JProgressBar();
-        lblItem10 = new javax.swing.JLabel();
-        pgbItem9 = new javax.swing.JProgressBar();
-        lblItem9 = new javax.swing.JLabel();
-        pgbItem8 = new javax.swing.JProgressBar();
-        lblItem8 = new javax.swing.JLabel();
-        pgbItem7 = new javax.swing.JProgressBar();
-        lblItem7 = new javax.swing.JLabel();
-        pgbItem6 = new javax.swing.JProgressBar();
         lblItem6 = new javax.swing.JLabel();
         lblPessoasItem6 = new javax.swing.JLabel();
+        lblQuantidadeItem6 = new javax.swing.JLabel();
+        pgbItem6 = new javax.swing.JProgressBar();
         btnCompra1Item6 = new javax.swing.JButton();
-        btnCompra1Item7 = new javax.swing.JButton();
+        btnCompra10Item6 = new javax.swing.JButton();
+        lblItem7 = new javax.swing.JLabel();
         lblPessoasItem7 = new javax.swing.JLabel();
+        lblQuantidadeItem7 = new javax.swing.JLabel();
+        pgbItem7 = new javax.swing.JProgressBar();
+        btnCompra1Item7 = new javax.swing.JButton();
+        btnCompra10Item7 = new javax.swing.JButton();
+        lblItem8 = new javax.swing.JLabel();
         lblPessoasItem8 = new javax.swing.JLabel();
+        lblQuantidadeItem8 = new javax.swing.JLabel();
+        pgbItem8 = new javax.swing.JProgressBar();
         btnCompra1Item8 = new javax.swing.JButton();
+        btnCompra10Item8 = new javax.swing.JButton();
+        lblItem9 = new javax.swing.JLabel();
         lblPessoasItem9 = new javax.swing.JLabel();
+        lblQuantidadeItem9 = new javax.swing.JLabel();
+        pgbItem9 = new javax.swing.JProgressBar();
         btnCompra1Item9 = new javax.swing.JButton();
+        btnCompra10Item9 = new javax.swing.JButton();
+        lblItem10 = new javax.swing.JLabel();
         lblPessoasItem10 = new javax.swing.JLabel();
+        lblQuantidadeItem10 = new javax.swing.JLabel();
+        pgbItem10 = new javax.swing.JProgressBar();
         btnCompra1Item10 = new javax.swing.JButton();
         btnCompra10Item10 = new javax.swing.JButton();
-        lblQuantidadeItem10 = new javax.swing.JLabel();
-        btnCompra10Item9 = new javax.swing.JButton();
-        lblQuantidadeItem9 = new javax.swing.JLabel();
-        btnCompra10Item8 = new javax.swing.JButton();
-        lblQuantidadeItem8 = new javax.swing.JLabel();
-        btnCompra10Item7 = new javax.swing.JButton();
-        lblQuantidadeItem7 = new javax.swing.JLabel();
-        btnCompra10Item6 = new javax.swing.JButton();
-        lblQuantidadeItem6 = new javax.swing.JLabel();
+        txaDescricao = new javax.swing.JTextArea();
+        btnMelhorias = new javax.swing.JButton();
+        btnConquistas = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("ClickerSustentável");
         setResizable(false);
-
-        txaDescricao.setEditable(false);
-        txaDescricao.setColumns(20);
-        txaDescricao.setRows(5);
-
-        btnMelhorias.setText("Melhorias");
 
         lblPontos.setText("Pontos de Sustentabilidade:");
         lblPontos.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
 
-        btnConquistas.setText("Conquistas");
-
         lblQuantidadePontos.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        lblQuantidadePontos.setText("100");
+        PontosSustentabilidade pontos = new PontosSustentabilidade();
+        lblQuantidadePontos.setText(pontos.pontosstring);
 
-        lblItem1.setText("Separar lixo em casa");
+        lblItem1.setText(itens.nomeItem1);
 
         lblPessoasItem1.setText("Pessoas:");
 
         lblQuantidadeItem1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem1.setText("2");
-
-        btnCompra1Item1.setText("+1");
-
-        btnCompra10Item1.setText("+10");
+        lblQuantidadeItem1.setText(itens.quantidadeItem1.toString());
 
         pgbItem1.setToolTipText("Realizar");
-        pgbItem1.setValue(100);
         pgbItem1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem1.addMouseListener(new java.awt.event.MouseAdapter()
         {
@@ -145,9 +141,17 @@ public class frmJogoPrincipal extends javax.swing.JDialog
             }
         });
 
-        lblItem2.setText("Item 2");
+        btnCompra1Item1.setText("+1");
 
-        pgbItem2.setValue(75);
+        btnCompra10Item1.setText("+10");
+
+        lblItem2.setText(itens.nomeItem2);
+
+        lblPessoasItem2.setText("Pessoas:");
+
+        lblQuantidadeItem2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem2.setText(itens.quantidadeItem2.toString());
+
         pgbItem2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem2.addMouseListener(new java.awt.event.MouseAdapter()
         {
@@ -167,19 +171,22 @@ public class frmJogoPrincipal extends javax.swing.JDialog
 
         btnCompra1Item2.setText("+1");
 
-        lblPessoasItem2.setText("Pessoas:");
-
-        lblQuantidadeItem2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem2.setText("2");
-
         btnCompra10Item2.setText("+10");
 
-        lblItem3.setText("Item 3");
+        lblItem3.setText(itens.nomeItem3);
 
-        pgbItem3.setValue(50);
+        lblPessoasItem3.setText("Pessoas:");
+
+        lblQuantidadeItem3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem3.setText("0");
+
         pgbItem3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem3.addMouseListener(new java.awt.event.MouseAdapter()
         {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem3MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt)
             {
                 pgbItem3MouseEntered(evt);
@@ -192,19 +199,22 @@ public class frmJogoPrincipal extends javax.swing.JDialog
 
         btnCompra1Item3.setText("+1");
 
-        lblPessoasItem3.setText("Pessoas:");
-
-        lblQuantidadeItem3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem3.setText("2");
-
         btnCompra10Item3.setText("+10");
 
-        lblItem4.setText("Separar lixo em casa");
+        lblItem4.setText(itens.nomeItem4);
 
-        pgbItem4.setValue(25);
+        lblPessoasItem4.setText("Pessoas:");
+
+        lblQuantidadeItem4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem4.setText("0");
+
         pgbItem4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem4.addMouseListener(new java.awt.event.MouseAdapter()
         {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem4MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt)
             {
                 pgbItem4MouseEntered(evt);
@@ -217,18 +227,22 @@ public class frmJogoPrincipal extends javax.swing.JDialog
 
         btnCompra1Item4.setText("+1");
 
-        lblPessoasItem4.setText("Pessoas:");
-
-        lblQuantidadeItem4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem4.setText("2");
-
         btnCompra10Item4.setText("+10");
 
-        lblItem5.setText("Separar lixo em casa");
+        lblItem5.setText(itens.nomeItem5);
+
+        lblPessoasItem5.setText("Pessoas:");
+
+        lblQuantidadeItem5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem5.setText("0");
 
         pgbItem5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem5.addMouseListener(new java.awt.event.MouseAdapter()
         {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem5MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt)
             {
                 pgbItem5MouseEntered(evt);
@@ -241,80 +255,22 @@ public class frmJogoPrincipal extends javax.swing.JDialog
 
         btnCompra1Item5.setText("+1");
 
-        lblPessoasItem5.setText("Pessoas:");
-
-        lblQuantidadeItem5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem5.setText("2");
-
         btnCompra10Item5.setText("+10");
 
-        pgbItem10.setValue(100);
-        pgbItem10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        pgbItem10.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseEntered(java.awt.event.MouseEvent evt)
-            {
-                pgbItem10MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                pgbItem10MouseExited(evt);
-            }
-        });
+        lblItem6.setText("Separar lixo em casa");
 
-        lblItem10.setText("Separar lixo em casa");
+        lblPessoasItem6.setText("Pessoas:");
 
-        pgbItem9.setValue(75);
-        pgbItem9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        pgbItem9.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseEntered(java.awt.event.MouseEvent evt)
-            {
-                pgbItem9MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                pgbItem9MouseExited(evt);
-            }
-        });
-
-        lblItem9.setText("Separar lixo em casa");
-
-        pgbItem8.setValue(50);
-        pgbItem8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        pgbItem8.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseEntered(java.awt.event.MouseEvent evt)
-            {
-                pgbItem8MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                pgbItem8MouseExited(evt);
-            }
-        });
-
-        lblItem8.setText("Separar lixo em casa");
-
-        pgbItem7.setValue(25);
-        pgbItem7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        pgbItem7.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseEntered(java.awt.event.MouseEvent evt)
-            {
-                pgbItem7MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                pgbItem7MouseExited(evt);
-            }
-        });
-
-        lblItem7.setText("Separar lixo em casa");
+        lblQuantidadeItem6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem6.setText("0");
 
         pgbItem6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         pgbItem6.addMouseListener(new java.awt.event.MouseAdapter()
         {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem6MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt)
             {
                 pgbItem6MouseEntered(evt);
@@ -325,52 +281,129 @@ public class frmJogoPrincipal extends javax.swing.JDialog
             }
         });
 
-        lblItem6.setText("Separar lixo em casa");
-
-        lblPessoasItem6.setText("Pessoas:");
-
         btnCompra1Item6.setText("+1");
 
-        btnCompra1Item7.setText("+1");
+        btnCompra10Item6.setText("+10");
+
+        lblItem7.setText("Separar lixo em casa");
 
         lblPessoasItem7.setText("Pessoas:");
 
+        lblQuantidadeItem7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem7.setText("0");
+
+        pgbItem7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        pgbItem7.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem7MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                pgbItem7MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                pgbItem7MouseExited(evt);
+            }
+        });
+
+        btnCompra1Item7.setText("+1");
+
+        btnCompra10Item7.setText("+10");
+
+        lblItem8.setText("Separar lixo em casa");
+
         lblPessoasItem8.setText("Pessoas:");
+
+        lblQuantidadeItem8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem8.setText("0");
+
+        pgbItem8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        pgbItem8.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem8MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                pgbItem8MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                pgbItem8MouseExited(evt);
+            }
+        });
 
         btnCompra1Item8.setText("+1");
 
+        btnCompra10Item8.setText("+10");
+
+        lblItem9.setText("Separar lixo em casa");
+
         lblPessoasItem9.setText("Pessoas:");
+
+        lblQuantidadeItem9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem9.setText("0");
+
+        pgbItem9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        pgbItem9.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem9MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                pgbItem9MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                pgbItem9MouseExited(evt);
+            }
+        });
 
         btnCompra1Item9.setText("+1");
 
+        btnCompra10Item9.setText("+10");
+
+        lblItem10.setText("Separar lixo em casa");
+
         lblPessoasItem10.setText("Pessoas:");
+
+        lblQuantidadeItem10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblQuantidadeItem10.setText("0");
+
+        pgbItem10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        pgbItem10.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                pgbItem10MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                pgbItem10MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                pgbItem10MouseExited(evt);
+            }
+        });
 
         btnCompra1Item10.setText("+1");
 
         btnCompra10Item10.setText("+10");
 
-        lblQuantidadeItem10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem10.setText("2");
+        txaDescricao.setEditable(false);
+        txaDescricao.setColumns(20);
+        txaDescricao.setRows(5);
 
-        btnCompra10Item9.setText("+10");
+        btnMelhorias.setText("Melhorias");
 
-        lblQuantidadeItem9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem9.setText("2");
-
-        btnCompra10Item8.setText("+10");
-
-        lblQuantidadeItem8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem8.setText("2");
-
-        btnCompra10Item7.setText("+10");
-
-        lblQuantidadeItem7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem7.setText("2");
-
-        btnCompra10Item6.setText("+10");
-
-        lblQuantidadeItem6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblQuantidadeItem6.setText("2");
+        btnConquistas.setText("Conquistas");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -668,115 +701,165 @@ public class frmJogoPrincipal extends javax.swing.JDialog
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+
+
+    
+    //Eventos de Mouse para mostrar a descrição
+    
     private void pgbItem1MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem1MouseEntered
     {//GEN-HEADEREND:event_pgbItem1MouseEntered
-        Descricao("1");
+        Descricao(1);
     }//GEN-LAST:event_pgbItem1MouseEntered
 
     private void pgbItem1MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem1MouseExited
     {//GEN-HEADEREND:event_pgbItem1MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem1MouseExited
 
     private void pgbItem2MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem2MouseEntered
     {//GEN-HEADEREND:event_pgbItem2MouseEntered
-        Descricao("2");
+        Descricao(2);
     }//GEN-LAST:event_pgbItem2MouseEntered
 
     private void pgbItem2MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem2MouseExited
     {//GEN-HEADEREND:event_pgbItem2MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem2MouseExited
 
     private void pgbItem3MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem3MouseEntered
     {//GEN-HEADEREND:event_pgbItem3MouseEntered
-        Descricao("3");
+        Descricao(3);
     }//GEN-LAST:event_pgbItem3MouseEntered
 
     private void pgbItem3MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem3MouseExited
     {//GEN-HEADEREND:event_pgbItem3MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem3MouseExited
 
     private void pgbItem4MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem4MouseEntered
     {//GEN-HEADEREND:event_pgbItem4MouseEntered
-        Descricao("4");
+        Descricao(4);
     }//GEN-LAST:event_pgbItem4MouseEntered
 
     private void pgbItem4MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem4MouseExited
     {//GEN-HEADEREND:event_pgbItem4MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem4MouseExited
 
     private void pgbItem5MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem5MouseEntered
     {//GEN-HEADEREND:event_pgbItem5MouseEntered
-        Descricao("5");
+        Descricao(5);
     }//GEN-LAST:event_pgbItem5MouseEntered
 
     private void pgbItem5MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem5MouseExited
     {//GEN-HEADEREND:event_pgbItem5MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem5MouseExited
 
     private void pgbItem6MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem6MouseEntered
     {//GEN-HEADEREND:event_pgbItem6MouseEntered
-        Descricao("6");
+        Descricao(6);
     }//GEN-LAST:event_pgbItem6MouseEntered
 
     private void pgbItem6MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem6MouseExited
     {//GEN-HEADEREND:event_pgbItem6MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem6MouseExited
 
     private void pgbItem7MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem7MouseEntered
     {//GEN-HEADEREND:event_pgbItem7MouseEntered
-        Descricao("7");
+        Descricao(7);
     }//GEN-LAST:event_pgbItem7MouseEntered
 
     private void pgbItem7MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem7MouseExited
     {//GEN-HEADEREND:event_pgbItem7MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem7MouseExited
 
     private void pgbItem8MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem8MouseEntered
     {//GEN-HEADEREND:event_pgbItem8MouseEntered
-        Descricao("8");
+        Descricao(8);
     }//GEN-LAST:event_pgbItem8MouseEntered
 
     private void pgbItem8MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem8MouseExited
     {//GEN-HEADEREND:event_pgbItem8MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem8MouseExited
 
     private void pgbItem9MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem9MouseEntered
     {//GEN-HEADEREND:event_pgbItem9MouseEntered
-        Descricao("9");
+        Descricao(9);
     }//GEN-LAST:event_pgbItem9MouseEntered
 
     private void pgbItem9MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem9MouseExited
     {//GEN-HEADEREND:event_pgbItem9MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem9MouseExited
 
     private void pgbItem10MouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem10MouseEntered
     {//GEN-HEADEREND:event_pgbItem10MouseEntered
-        Descricao("10");
+        Descricao(10);
     }//GEN-LAST:event_pgbItem10MouseEntered
 
     private void pgbItem10MouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem10MouseExited
     {//GEN-HEADEREND:event_pgbItem10MouseExited
-        Descricao("");
+        Descricao(0);
     }//GEN-LAST:event_pgbItem10MouseExited
 
+    
+    
+    
+    //Eventos de Mouse para realizar ação
+    
     private void pgbItem1MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem1MouseClicked
     {//GEN-HEADEREND:event_pgbItem1MouseClicked
-        Realizar(pgbItem1,1);
+        Realizar(pgbItem1,1,lblQuantidadePontos);
     }//GEN-LAST:event_pgbItem1MouseClicked
 
     private void pgbItem2MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem2MouseClicked
     {//GEN-HEADEREND:event_pgbItem2MouseClicked
-        Realizar(pgbItem2,2);
+        Realizar(pgbItem2,2,lblQuantidadePontos);
     }//GEN-LAST:event_pgbItem2MouseClicked
+
+    private void pgbItem3MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem3MouseClicked
+    {//GEN-HEADEREND:event_pgbItem3MouseClicked
+        Realizar(pgbItem3,3,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem3MouseClicked
+
+    private void pgbItem4MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem4MouseClicked
+    {//GEN-HEADEREND:event_pgbItem4MouseClicked
+        Realizar(pgbItem4,4,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem4MouseClicked
+
+    private void pgbItem5MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem5MouseClicked
+    {//GEN-HEADEREND:event_pgbItem5MouseClicked
+        Realizar(pgbItem5,5,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem5MouseClicked
+
+    private void pgbItem6MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem6MouseClicked
+    {//GEN-HEADEREND:event_pgbItem6MouseClicked
+        Realizar(pgbItem6,6,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem6MouseClicked
+
+    private void pgbItem7MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem7MouseClicked
+    {//GEN-HEADEREND:event_pgbItem7MouseClicked
+        Realizar(pgbItem7,7,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem7MouseClicked
+
+    private void pgbItem8MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem8MouseClicked
+    {//GEN-HEADEREND:event_pgbItem8MouseClicked
+        Realizar(pgbItem8,8,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem8MouseClicked
+
+    private void pgbItem9MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem9MouseClicked
+    {//GEN-HEADEREND:event_pgbItem9MouseClicked
+        Realizar(pgbItem9,9,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem9MouseClicked
+
+    private void pgbItem10MouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_pgbItem10MouseClicked
+    {//GEN-HEADEREND:event_pgbItem10MouseClicked
+        Realizar(pgbItem10,10,lblQuantidadePontos);
+    }//GEN-LAST:event_pgbItem10MouseClicked
     
     
     /**

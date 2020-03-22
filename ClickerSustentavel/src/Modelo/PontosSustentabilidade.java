@@ -11,6 +11,21 @@ package Modelo;
  */
 public class PontosSustentabilidade
 {
-    private Double pontos = 50.0;
+    private Double pontos = 0.0;
     public String pontosstring = pontos.toString();
+
+    public void setPontos(Double pontos)
+    {
+        this.pontos += pontos;
+    }
+
+    public Double getPontos()
+    {
+        return pontos;
+    }
+    
+    
+    
+    
+    
 }
