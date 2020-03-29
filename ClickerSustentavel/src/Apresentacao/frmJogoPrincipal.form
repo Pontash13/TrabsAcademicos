@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.4" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="ClickerSustent&#xe1;vel"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem1" max="32767" attributes="0"/>
+                                  <Component id="pgbItem1" pref="160" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item1" pref="60" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem1" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item1" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem2" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item2" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem2" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem2" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item2" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem3" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item3" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem3" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem3" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item3" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem4" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item4" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem4" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem4" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item4" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem5" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem5" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item5" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem5" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem5" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item5" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem6" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item6" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem6" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem6" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item6" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem7" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem7" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item7" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem7" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem7" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item7" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem8" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem8" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item8" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem8" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem8" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item8" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem9" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem9" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item9" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem9" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem9" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item9" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblItem10" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pgbItem10" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnCompra1Item10" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblPessoasItem10" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblQuantidadeItem10" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="btnCompra10Item10" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="txaDescricao" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnConquistas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnMelhorias" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblQuantidadePontos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblPontos" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem2" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem3" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem4" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem5" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem6" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem7" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem8" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem9" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblItem10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoasItem10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuantidadeItem10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="btnCompra1Item10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCompra10Item10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="pgbItem10" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jPanel1" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblPontos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblQuantidadePontos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnMelhorias" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnConquistas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="txaDescricao" pref="136" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblPontos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pontos de Sustentabilidade:"/>
+        <Property name="verticalAlignment" type="int" value="3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadePontos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor" postCode="PontosSustentabilidade pontos = new PontosSustentabilidade();">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="pontos.pontosstring" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem1">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.nomeItem1" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="Itens itens = new Itens();"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem1">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.quantidadeItem1.toString()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem1">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Realizar"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem1MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem1MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem1MouseExited"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem2">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.nomeItem2" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem2">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.quantidadeItem2.toString()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem2">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem2MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem2MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem2MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem3">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.nomeItem3" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem3">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem3">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem3MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem3MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem3MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem4">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.nomeItem4" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem4">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem4">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem4MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem4MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem4MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem5">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="itens.nomeItem5" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem5">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem5">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem5MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem5MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem5MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Separar lixo em casa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem6">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem6">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem6MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem6MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem6MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Separar lixo em casa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem7">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem7">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem7MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem7MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem7MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Separar lixo em casa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem8">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem8">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem8MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem8MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem8MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Separar lixo em casa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem9">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem9">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem9MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem9MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem9MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblItem10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Separar lixo em casa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoasItem10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuantidadeItem10">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbItem10">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem10MouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem10MouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pgbItem10MouseExited"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra1Item10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompra10Item10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextArea" name="txaDescricao">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+        <Property name="rows" type="int" value="5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMelhorias">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Melhorias"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnConquistas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conquistas"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="259" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
